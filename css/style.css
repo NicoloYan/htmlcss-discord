@@ -100,6 +100,11 @@ li {
     height: 400px;
 }
 
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
 .flex-container {
     display: flex;
     margin: auto;
@@ -110,7 +115,6 @@ li {
 
 article {
     width: calc( (100% / 3) * 2);
-    background-color: #1d90ff;
     height: 360px;
     align-items: center;
     display: flex;
@@ -118,10 +122,11 @@ article {
 
 aside {
     width: calc(100% / 3);
-    background-color: #fec1cb;
     height: 360px;
-    align-items: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
 }
 
 .grey {
