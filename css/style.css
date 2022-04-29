@@ -18,13 +18,26 @@ body {
     list-style: none;
 }
 
-.btn-small {
+.btn-white {
     background-color: white;
     border-radius: 25px;
     padding: 10px 15px;
     border: 0px;
 }
+.btn-black {
+    background-color: #23272a;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 0px;
+}
 
+.p-center {
+    text-align: center;
+    width: 60%;
+    margin: 30px;
+    line-height: 30px;
+}
 /* Header */
 
 .header-top {
@@ -61,18 +74,25 @@ li {
     text-align: right;
     color: white;
 }
-
-.bluesquare {
+ h1 {
+     font-size: 40px;
+ }
+.jumbotron {
     height: 400px;
-    background-color: #00008b;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
-.pinksquare {
+.slogan {
     width: 60%;
     height: 360px;
-    background-color: #ee81ee;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Main */
