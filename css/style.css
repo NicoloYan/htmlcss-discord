@@ -32,6 +32,13 @@ body {
     border: 0px;
 }
 
+.btn-blue {
+    background-color: #7389da;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 0px;
+}
 .p-center {
     text-align: center;
     width: 60%;
@@ -97,7 +104,7 @@ li {
 
 /* Main */
 .main-container {
-    height: 400px;
+    height: 500px;
 }
 
 h2 {
@@ -135,7 +142,9 @@ aside {
 
 .bigcontainer {
     height: 800px;
-    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .greensquare {
@@ -149,7 +158,7 @@ aside {
 
 /* Footer */
 .footer {
-    background-color: black;
+    background-color: #23272a;
     justify-content: center;
     align-items: center;
     height: 520px;
